@@ -1,39 +1,23 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2759
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red183\green111\blue179;\red24\green24\blue24;\red70\green137\blue204;
-\red194\green126\blue101;\red193\green193\blue193;\red212\green214\blue154;\red140\green211\blue254;\red167\green197\blue152;
-\red202\green202\blue202;}
-{\*\expandedcolortbl;;\cssrgb\c77255\c52549\c75294;\cssrgb\c12157\c12157\c12157;\cssrgb\c33725\c61176\c83922;
-\cssrgb\c80784\c56863\c47059;\cssrgb\c80000\c80000\c80000;\cssrgb\c86275\c86275\c66667;\cssrgb\c61176\c86275\c99608;\cssrgb\c70980\c80784\c65882;
-\cssrgb\c83137\c83137\c83137;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
-
-\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 #include\cf4 \strokec4  \cf5 \strokec5 <stdio.h>\cf6 \cb1 \strokec6 \
-\pard\pardeftab720\partightenfactor0
-\cf4 \cb3 \strokec4 void\cf6 \strokec6  \cf7 \strokec7 main\cf6 \strokec6  ()\{\cb1 \
-\pard\pardeftab720\partightenfactor0
-\cf6 \cb3    \cf4 \strokec4 int\cf6 \strokec6  \cf8 \strokec8 num\cf6 \strokec6 [\cf9 \strokec9 20\cf6 \strokec6 ];\cb1 \
-\cb3    \cf4 \strokec4 int\cf6 \strokec6  \cf8 \strokec8 i\cf6 \strokec6 , \cf8 \strokec8 j\cf6 \strokec6 , \cf8 \strokec8 a\cf6 \strokec6 , \cf8 \strokec8 n\cf6 \strokec6 ;\cb1 \
-\cb3    \cf7 \strokec7 printf\cf6 \strokec6 (\cf5 \strokec5 "enter number of elements in an array"\cf6 \strokec6 );\cb1 \
-\cb3    \cf7 \strokec7 scanf\cf6 \strokec6 (\cf5 \strokec5 "\cf8 \strokec8 %d\cf5 \strokec5 "\cf6 \strokec6 , \cf10 \strokec10 &\cf8 \strokec8 n\cf6 \strokec6 );\cb1 \
-\cb3    \cf7 \strokec7 priagantf\cf6 \strokec6 (\cf5 \strokec5 "Enter the elements"\cf6 \strokec6 );\cb1 \
-\cb3    \cf2 \strokec2 for\cf6 \strokec6  (\cf8 \strokec8 i\cf6 \strokec6  \cf10 \strokec10 =\cf6 \strokec6  \cf9 \strokec9 0\cf6 \strokec6 ; \cf8 \strokec8 i\cf6 \strokec6  \cf10 \strokec10 <\cf6 \strokec6  \cf8 \strokec8 n\cf6 \strokec6 ; \cf10 \strokec10 ++\cf8 \strokec8 i\cf6 \strokec6 )\cb1 \
-\cb3       \cf7 \strokec7 scanf\cf6 \strokec6 (\cf5 \strokec5 "\cf8 \strokec8 %d\cf5 \strokec5 "\cf6 \strokec6 , \cf10 \strokec10 &\cf8 \strokec8 num\cf6 \strokec6 [\cf8 \strokec8 i\cf6 \strokec6 ]);\cb1 \
-\cb3    \cf2 \strokec2 for\cf6 \strokec6  (\cf8 \strokec8 i\cf6 \strokec6  \cf10 \strokec10 =\cf6 \strokec6  \cf9 \strokec9 0\cf6 \strokec6 ; \cf8 \strokec8 i\cf6 \strokec6  \cf10 \strokec10 <\cf6 \strokec6  \cf8 \strokec8 n\cf6 \strokec6 ; \cf10 \strokec10 ++\cf8 \strokec8 i\cf6 \strokec6 )\{\cb1 \
-\cb3       \cf2 \strokec2 for\cf6 \strokec6  (\cf8 \strokec8 j\cf6 \strokec6  \cf10 \strokec10 =\cf6 \strokec6  \cf8 \strokec8 i\cf6 \strokec6  \cf10 \strokec10 +\cf6 \strokec6  \cf9 \strokec9 1\cf6 \strokec6 ; \cf8 \strokec8 j\cf6 \strokec6  \cf10 \strokec10 <\cf6 \strokec6  \cf8 \strokec8 n\cf6 \strokec6 ; \cf10 \strokec10 ++\cf8 \strokec8 j\cf6 \strokec6 )\{\cb1 \
-\cb3          \cf2 \strokec2 if\cf6 \strokec6  (\cf8 \strokec8 num\cf6 \strokec6 [\cf8 \strokec8 i\cf6 \strokec6 ] \cf10 \strokec10 >\cf6 \strokec6  \cf8 \strokec8 num\cf6 \strokec6 [\cf8 \strokec8 j\cf6 \strokec6 ])\{\cb1 \
-\cb3             \cf8 \strokec8 a\cf6 \strokec6  \cf10 \strokec10 =\cf6 \strokec6  \cf8 \strokec8 num\cf6 \strokec6 [\cf8 \strokec8 i\cf6 \strokec6 ];\cb1 \
-\cb3             \cf8 \strokec8 num\cf6 \strokec6 [\cf8 \strokec8 i\cf6 \strokec6 ] \cf10 \strokec10 =\cf6 \strokec6  \cf8 \strokec8 num\cf6 \strokec6 [\cf8 \strokec8 j\cf6 \strokec6 ];\cb1 \
-\cb3             \cf8 \strokec8 num\cf6 \strokec6 [\cf8 \strokec8 j\cf6 \strokec6 ] \cf10 \strokec10 =\cf6 \strokec6  \cf8 \strokec8 a\cf6 \strokec6 ;\cb1 \
-\cb3          \}\cb1 \
-\cb3       \}\cb1 \
-\cb3    \}\cb1 \
-\cb3    \cf7 \strokec7 printf\cf6 \strokec6 (\cf5 \strokec5 "The numbers in ascending order is:"\cf6 \strokec6 );\cb1 \
-\cb3    \cf2 \strokec2 for\cf6 \strokec6  (\cf8 \strokec8 i\cf6 \strokec6  \cf10 \strokec10 =\cf6 \strokec6  \cf9 \strokec9 0\cf6 \strokec6 ; \cf8 \strokec8 i\cf6 \strokec6  \cf10 \strokec10 <\cf6 \strokec6  \cf8 \strokec8 n\cf6 \strokec6 ; \cf10 \strokec10 ++\cf8 \strokec8 i\cf6 \strokec6 )\{\cb1 \
-\cb3       \cf7 \strokec7 printf\cf6 \strokec6 (\cf5 \strokec5 "\cf8 \strokec8 %d\cf5 \strokec5 "\cf6 \strokec6 , \cf8 \strokec8 num\cf6 \strokec6 [\cf8 \strokec8 i\cf6 \strokec6 ]);\cb1 \
-\cb3    \}\cb1 \
-\cb3 \}\cb1 \
+#include <stdio.h>
+void main (){
+   int num[20];
+   int i, j, a, n;
+   printf("enter number of elements in an array");
+   scanf("%d", &n);
+   printf("Enter the elements");
+   for (i = 0; i < n; ++i)
+      scanf("%d", &num[i]);
+   for (i = 0; i < n; ++i){
+      for (j = i + 1; j < n; ++j){
+         if (num[i] > num[j]){
+            a = num[i];
+            num[i] = num[j];
+            num[j] = a;
+         }
+      }
+   }
+   printf("The numbers in ascending order is:");
+   for (i = 0; i < n; ++i){
+      printf("%d", num[i]);
+   }
 }
